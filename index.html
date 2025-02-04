@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chaitali Kala</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+
+
+
+    <!-- new tech skill  -->
+
+    <style>
+      .skills {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 20px;
+      }
+
+      .skill-box {
+          background-color: #2c333b;
+          padding: 20px;
+          border-radius: 12px;
+          width: 250px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .skill-box h3 {
+          font-size: 16px;
+          margin-bottom: 15px;
+          font-weight: bold;
+      }
+
+      .icon {
+          margin-right: 8px;
+      }
+
+      .tags {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 10px;
+      }
+
+      .tag {
+          background-color: #14b8a6;
+          color: #fff;
+          padding: 8px 15px;
+          border-radius: 20px;
+          font-size: 14px;
+          font-weight: bold;
+          display: inline-block;
+      }
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Chaitali Kala</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <!-- <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li> -->
+
+          <!-- <li>
+            <a href="#" class="btn btn-primary">Download CV</a>
+          </li> -->
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+<!-- 
+            <div class="elem elem-1">
+              <p class="elem-title">12</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">800+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div> -->
+
+            <!-- <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img"> -->
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Chaitali Kala</strong> IT Engineer aspiring to achieve professional excellence and independence. 
+            </h2>
+
+            <p class="hero-text">
+              Dedicated to gaining experience through practical training and hands-on projects. 
+              Eager to contribute to a leading organization by applying my skills to deliver innovative solutions and enhance user experiences.
+            </p>
+
+            <!-- <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div> -->
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <body>
+
+        <section class="about">
+          <h1><center>About Me</center></h1>
+          <div class="container">
+            <div class="about-content">
+        
+            </div>
+      
+            <div class="about-card">
+              <p class="section-subtitle">Personal Details</p>
+              <p class="section-text">
+                <strong>Date of Birth:</strong> 06/02/2004<br>
+                <strong>Languages:</strong> English (R/W/S), Hindi (R/W/S)<br>
+                <strong>Location:</strong> Shantinath Printers, Balaji Chowk, Nandgaon, Dist: Nashik
+              </p>
+            </div>
+      
+            <div class="about-card">
+              <p class="section-subtitle">Contact Information</p>
+              <p class="section-text"><strong>Email:</strong> <a href="mailto:chaitalikala682@gmail.com">chaitalikala682@gmail.com</a><br>
+                <strong>Contact No.:</strong> 8888968614<br>
+                <strong>GitHub:</strong> <a href="https://github.com/chaitaliKala" target="_blank">https://github.com/chaitaliKala</a>
+              </p>
+            </div>
+      
+          </div>
+        </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <h1><p class="section-subtitle">Projects</p></h1>
+
+        
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.png')">
+                <div class="card-content">
+
+                  <h2><p class="card-subtitle">AI based chatbot for collating and dissemination of information on
+                    groundwater.
+                    </p></h2>
+                    <p>Smart India Hackathon(2024) -</p>
+
+                  <h3 class="h3 card-title">Developed an AI-powered chatbot to collate and disseminate information related to groundwater
+                    resources.
+                    </h3>
+
+                
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <h1><p class="card-subtitle">Hospital Chatbot</h1></p>
+
+                  <h4 class="h3 card-title">Developed a hospital sponsored chatbot using Dialogflow and Botpress, providing real-time hospital information to
+                  enhance patient engagement.</h4>
+
+                  <h3>Tech Stack : NLP | AI | Botpress</h3>
+
+                  <span class="btn-link">
+                    <!-- <span>View Project</span> -->
+
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Patient Tracking System</p>
+
+                  <h3 class="h3 card-title">Engaged in developing a hospital patient tracking system.</h3>
+                  <h3>Tech Stack : HTML5 | CSS3 | JavaScript | PHP | SQL</h3>
+
+
+
+                </div>
+              </a>
+            </li>
+
+          
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">Technical Skills</p>
+
+          
+
+        <div class="container">
+          <!-- <h2 class="title">Technical Skills</h2> -->
+          <div class="skills">
+              <div class="skill-box">
+                  <h3><span class="icon">&#60;/&#62; Programming Languages</h3>
+                  <div class="tags">
+                      <span class="tag">C</span>
+                      <span class="tag">Java</span>
+                      <span class="tag">C++</span>
+                  </div>
+              </div>
+              <div class="skill-box">
+                  <h3><span class="icon">🌍 Web Technologies</h3>
+                  <div class="tags">
+                      <span class="tag">HTML</span>
+                      <span class="tag">CSS</span>
+                      <span class="tag">JavaScript</span>
+                  </div>
+              </div>
+              <div class="skill-box">
+                  <h3><span class="icon">🗄️ Databases & Tools</h3>
+                  <div class="tags">
+                      <span class="tag">SQL</span>
+                      <span class="tag">Git/Github</span>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Education</p>
+          <ul class="blog-list">
+            <li>
+              <div class="blog-card">
+                <a href="#" class="card-tag">B.Tech Information Technology</a>
+                <h3 class="card-title">
+                  <a href="#">Walchand Institute of Technology (Autonomous)<br>
+                             Expected 2025<br>
+                             CGPA: 9.83</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <a href="#" class="card-tag">Diploma in Computer Science</a>
+
+                <h3 class="card-title">
+                  <a href="#">SNJB's Shri. Hiralal Hastimal (Jain Brothers, Jalgaon) Polytechnic,Chandwad<br>
+                    2022<br>
+                    Percentage: 83.77%</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <a href="#" class="card-tag">10th Standard </a>
+
+                <h3 class="card-title">
+                  <a href="#">V.J.High School,Nandgaon<br>
+                   2019<br>
+                   Percentage: 81.80%</a></a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Get in Touch</p>
+
+            <!-- <h2 class="h2 section-title">Drop Me a Line</h2> -->
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Shantinath Printers,Balaji Chowk, Nandgaon,Dist:Nashik
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">chaitalikala682@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+91 8888968614</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <!-- <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 <a href="#" class="copyright-link">codewithchaitali</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer> -->
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
